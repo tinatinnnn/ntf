@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.header{
+    width: 375px;
+    background-color: var(--very-dark);
+    padding-bottom: 64px;
+    padding-top: 64px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+.img{
+    background-color: var(--very-darkkd);
+    width:327px;
+    box-shadow: 0px 25px 50px 0px #00000018;
+   padding-left: 25px;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   border-radius: 15px;
+}
+.text h2{
+    padding-top: 24px;
+    font-weight: 600;
+    color:var(--white);
+    font-size: 1.375rem;
+}
+.text-card{
+    font-weight: 300;
+    line-height:26px ;
+    font-size: 1rem;
+    color:#8BACD9 ;
+    padding-right: 25px;
+    padding-top: 12px;
+}
+.display {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  
+}
+
+.span {
+  display: flex;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+  font-size: 1rem;
+  letter-spacing: 1px;
+  
+}
+
+.span img {
+  margin-right: 5px;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+  font-size: 1rem;
+  padding-right: 26px;
+}
+
+.clock img {
+  margin-right: 11px;
+}
+.border{
+     border-bottom: 1px solid var(--very-dark) ;
+    padding-top: 24px;
+}
+.creator {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: hsl(215, 51%, 70%);
+  padding-top: 17px;
+}
+
+.avatar {
+  border: 1px solid var(--white);
+  border-radius: 50px;
+  margin-right: 1rem;
+}
+
+span {
+  color:var(--white);
+  margin-left: 5px;
+  font-weight: 400;
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .header{
+        width: 1440px;
+    }
+    h2:hover{
+        color: var(--cyan);
+        cursor: pointer;
+    }
+    span:hover{
+        color: var(--cyan);
+        cursor: pointer;
+    }
+}
